@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin:'job-desk-edg4.vercel.app',
+    origin:'https://job-desk-edg4.vercel.app',
     credentials:true
 }
 
